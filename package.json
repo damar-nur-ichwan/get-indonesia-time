@@ -1,11 +1,8 @@
 {
   "name": "get-indonesia-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module is very useful, if your application stores Indonesian time and your application is deployed on a server with a different time zone.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "dist/index.js",
   "author": "Damar Nur Ichwan",
   "license": "ISC",
   "dependencies": {
