@@ -13,7 +13,7 @@ function GetIndonesiaTime() {
     const localTimestamp = new Date(now.getTime());
     const day = localTimestamp.getDay();
     const date = localTimestamp.getDate();
-    const month = localTimestamp.getMonth();
+    const month = localTimestamp.getMonth() + 1;
     const year = localTimestamp.getFullYear();
     const hours = localTimestamp.getHours();
     const minutes = localTimestamp.getMinutes();
